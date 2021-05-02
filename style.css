@@ -1,0 +1,54 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A
+}
+li,a {
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    color: cornsilk;
+}
+.nav{
+    font-family: 'Rajdhani', sans-serif;
+    /* border: 2px solid black; */
+  
+}
+header{
+    /* border: 3px solid brown; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+
+     }
+     #imglogo{
+         margin-right: auto;
+         cursor: pointer ;
+         width: 50px;
+         height: 50px;
+     }
+     .nav_links li{
+         list-style: none;
+         display: inline-block;
+         padding: 0 20px;
+     }
+     .nav_links li a {
+         font-size: 25px;
+         transition: all 0.3s ease 0s;
+     }
+     .nav_links li a:hover{
+        color: #0088a9;
+     }
+     .btn{
+         padding: 9px 25px;
+         background-color: rgba(0, 136, 169, 1);
+         border-radius: 50px;
+        border: none;
+        cursor: pointer;
+        transition:all 0.3s ease 0s ;
+        margin-left: 30px;
+     }
+       .btn:hover{
+        background-color: rgba(0, 136, 169, 0.8);
+       }

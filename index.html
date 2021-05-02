@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+    <title>navibar02</title>
+    <style>
+        #slider{
+            overflow: hidden;
+           
+           
+
+        }
+        #slider figure{
+            position: relative;
+            width: 500%;
+            
+            margin: 0;
+            left: 0;
+            animation: 20s slider infinite;
+        }
+        #slider figure img {
+            width: 20%;
+            float: left;
+        }
+        @keyframes slider {
+            0%{left: 0;}
+            20%{
+                left: 0;
+
+            }
+            25%{
+                left: -100%;
+            }
+            45%{
+                left: -100%;
+            }
+            50%{ 
+                left: -200%;
+
+            }
+            70%{
+                     left: -200%;
+            }
+            75%{
+                left: -300%;
+            }
+            95%{
+                left: -300%;
+            }
+            100%{
+                left: -400%;
+            }
+
+
+        }
+        .slideimage{
+            height: auto;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <img src="img/logo.png" id="imglogo">
+       <nav class="nav">
+         <ul class="nav_links">
+             <li><a href="">About</a></li>
+             <li><a href="">Services</a></li>
+             <li><a href="">Our products</a></li>
+             <li><a href="">FAQ</a></li>
+         </ul>
+        </nav>
+        <button class="btn"> CALL US NOW</button>
+    </header>
+    
+    <div id="slider">
+        <figure>
+            <img  src="img/01.jpg" class="slideimage" >
+            <img src="img/02.jpg" class="slideimage" >
+            <img src="img/03.jpg" class="slideimage" >
+            <img src="img/04.jpg" aclass="slideimage">
+            <img src="img/01.jpg" class="slideimage" >
+        </figure>
+    </div>
+</body>
+</html>
